@@ -1,0 +1,327 @@
+    1  apt install tree
+    2  cd ..
+    3  cd .
+    4  cd ..
+    5  mkdir Departamento
+    6  mv Departamento/ Departamentos
+    7  cd Departamentos/
+    8  mkdir Diretoria Vendas Financeiro Comunicacao TI
+    9  cd TI
+   10  mkdir Redes Servicos Infraestrutura Desenvolvimento "Banco de Dados"
+   11  cd Servicos/
+   12  mkdir Web Email Gitlab DHCP DNS
+   13  tree ../../..
+   14  tree ../../
+   15  cd ..
+   16  cd ..
+   17  mv Vendas/ Diretoria/
+   18  cd TI/
+   19  mv Banco\ de\ Dados/ Servicos/
+   20  cd Servicos/
+   21  ls
+   22  cd ..
+   23  mv Desenvolvimento/ ..
+   24  tree ..
+   25  cd Servicos/
+   26  cp -R Gitlab/ ../Desenvolvimento
+   27  tree ..
+   28  cp -r Gitlab/ ../Desenvolvimento/
+   29  cd ../Desenvolvimento/
+   30  ls
+   31  cd ../Servicos/
+   32  ls
+   33  cp -r DHCP/ ../Redes/
+   34  cd /Departamentos/
+   35  ls
+   36  cd Diretoria/
+   37  mv Vendas/ ../Financeiro/
+   38  cd ..
+   39  tree
+   40  cd Financeiro/
+   41  cp -r Vendas/ ../Diretoria/
+   42  cd ..
+   43  tree
+   44  cd TI/Desenvolvimento/
+   45  ls
+   46  mv Gitlab/ GitLab/
+   47  ls
+   48  cd ..
+   49  cd Servicos/
+   50  ls
+   51  mv Gitlab/ GitLab/
+   52  ls
+   53  mv DHCP/ dhcp/
+   54  ls
+   55  ls
+   56  cd ..
+   57  cd ..
+   58  cd Financeiro/
+   59  mv Vendas/ vendas
+   60  cd ..
+   61  cd Diretoria/
+   62  mv Vendas/ vendas
+   63  ls
+   64  cd ..
+   65  tree
+   66  cd TI/Redes/
+   67  mv DHCP/ dhcp
+   68  cd ..
+   69  cd ..
+   70  cd TI/
+   71  rm -rf Infraestrutura/
+   72  cd Servicos/
+   73  rm -rf Email/
+   74  ls
+   75  cd ..
+   76  cd ..
+   77  ls -la
+   78  tree
+   79  echo Departamentos > Departamentos.txt
+   80  ls
+   81  cd Comunicacao/
+   82  ls
+   83  echo Comunicacao > Comunicacao.txt
+   84  cd ..
+   85  ls
+   86  cd Desenvolvimento/
+   87  ls
+   88  ls
+   89  echo Desenvolvimento > Desenvolvimento.txt
+   90  cd ..
+   91  ls
+   92  cd Financeiro/
+   93  ls
+   94  cd vendas/
+   95  ls
+   96  echo vendas > vendas.txt
+   97  cd ..
+   98  echo Financeiro > Financeiro.txt
+   99  cd ..
+  100  ls
+  101  cd Diretoria/vendas/
+  102  echo vendas > vendas.txt
+  103  cd ..
+  104  echo Diretoria > Diretoria.txt
+  105  ls
+  106  cd ..
+  107  ls
+  108  cd TI
+  109  ls
+  110  echo TI > TI.txt
+  111  ls
+  112  cd Desenvolvimento/
+  113  ls
+  114  cd GitLab/
+  115  ls
+  116  echo GitLab > GitLab.txt
+  117  cd ..
+  118  echo Desenvolvimento > Desenvolvimento.txt
+  119  cd ..
+  120  ls
+  121  cd Redes
+  122  ls
+  123  cd dhcp/
+  124  echo dhcp > dhcp.txt
+  125  cd ..
+  126  ls
+  127  echo Redes > Redes.txt
+  128  cat Redes.txt 
+  129  cd ..
+  130  ls
+  131  cd Servicos/
+  132  ls
+  133  cd Banco\ de\ Dados/
+  134  ls
+  135  echo "Banco de Dados" > "Banco de dados.txt"
+  136  cd ..
+  137  ls
+  138  cd dhcp/
+  139  echo dhcp > dhcp.txt
+  140  ls
+  141  cd ..
+  142  ls
+  143  cd DNS/
+  144  echo DNS > DNS.txt
+  145  cd ..
+  146  ls
+  147  cd GitLab/
+  148  echo GitLab > GitLab.txt
+  149  ls
+  150  cd ..
+  151  ls
+  152  cd Web
+  153  ls
+  154  echo Web > Web.txt
+  155  cd ..
+  156  ls
+  157  uptime
+  158  time
+  159  date
+  160  ls
+  161  cd ..
+  162  cd ..
+  163  tree
+  164  cd Servicos
+  165  cd TI/
+  166  ls
+  167  cd Servicos/
+  168  ls
+  169  echo Servicos > Servicos.txt
+  170  cat Servicos.txt 
+  171  cd ..
+  172  cd ..
+  173  cd ..
+  174  mv Departamentos/ DDepartamentos/
+  175  ls
+  176  cd DDepartamentos/
+  177  ls
+  178  mv Departamentos.txt DDepartamentos.txt 
+  179  ls
+  180  mv Desenvolvimento/ DDesenvolvimento/
+  181  mv Diretoria/ DDiretoria
+  182  ls
+  183  cd DDesenvolvimento/
+  184  ls
+  185  mv Desenvolvimento.txt DDesenvolvimento
+  186  ls
+  187  cd ..
+  188  ls
+  189  cd DDiretoria/
+  190  ls
+  191  mv Diretoria.txt DDiretoria.txt 
+  192  cd ..
+  193  ls
+  194  cd TI/
+  195  ls
+  196  mv Desenvolvimento/ DDesenvolvimento/
+  197  cd DDesenvolvimento/
+  198  ls
+  199  mv Desenvolvimento.txt DDesenvolvimento.txt 
+  200  cd ..
+  201  rm DDesenvolvimento/
+  202  rm -r DDesenvolvimento/
+  203  ls
+  204  cd Redes/
+  205  cd dhcp/
+  206  ls
+  207  mv dhcp.txt ddhcp.txt 
+  208  cd ..
+  209  ls
+  210  mv dhcp/ ddhcp/
+  211  ls
+  212  cd ..
+  213  ls
+  214  cd Servicos/
+  215  ls
+  216  mv dhcp/ ddhcp/
+  217  ls
+  218  mv DNS/ DDNS/
+  219  ls
+  220  cd DDNS/
+  221  ls
+  222  mv DNS.txt DDNS.txt 
+  223  ls
+  224  cd ..
+  225  ls
+  226  cd ..
+  227  cd Servicos/
+  228  cd ..
+  229  ls
+  230  cd ..
+  231  cd ..
+  232  ls
+  233  cp -r DDepartamentos/ Backup/
+  234  cd Backup/
+  235  ls
+  236  tree
+  237  cd ..
+  238  rm -rf Backup/
+  239  cd DDepartamentos/
+  240  cd TI/
+  241  ls
+  242  cd Servicos/
+  243  ls
+  244  cd ddhcp/
+  245  ls
+  246  mv dhcp.txt ddhcp.txt 
+  247  cd /
+  248  cp -r DDepartamentos/ Backup
+  249  cd Backup/
+  250  tree
+  251  cd ..
+  252  tar -zcvf Backup.tar.gz Backup/
+  253  ls -la
+  254  ls -lad Backup.tar.gz 
+  255  rm -rf Backup/
+  256  tar -zxvf Backup.tar.gz 
+  257  cd Backup
+  258  ls
+  259  tree
+  260  uptime
+  261  cd ..
+  262  history
+  263  mkdir teste
+  264  touch arqa.txt arqb.txt arqc.txt
+  265  ls -la
+  266  mv *.txt teste/
+  267  cd teste
+  268  ls
+  269  gzip arqa.txt
+  270  ls
+  271  bzip2 arqb.txt 
+  272  ls
+  273  ls
+  274  mv arqa.txt.gz arqa.txt
+  275  ls
+  276  cat arqa.txt 
+  277  ls
+  278  file arqa.txt 
+  279  gunzip arqa.txt 
+  280  ls
+  281  cat arqa.txt 
+  282  mv arqa.txt arqa.txt.gz
+  283  gunzip arqa.txt.gz 
+  284  ls
+  285  cat arqa.txt 
+  286  bunzip arqb.txt.bz2 
+  287  bunzip2 arqb.txt.bz2 
+  288  # gzip compacta
+  289  # gunzip descompacta
+  290  # bzip2 compacta
+  291  # bunzip2 descompacta
+  292  tar -cf amor.tar arqa.txt arqb.txt arqc.txt 
+  293  l
+  294  ls
+  295  rm -rf arq*
+  296  ls
+  297  gzip amor.tar 
+  298  ls
+  299  gunzip amor.tar.gz 
+  300  ls
+  301  tar -xf amor.tar 
+  302  ls
+  303  rm amor.tar 
+  304  ls
+  305  tar -cf Amores.tar arqa.txt arqb.txt arqc.txt 
+  306  ls
+  307  rm Amores.tar 
+  308  ls
+  309  cd ..
+  310  tar -zcf compactado.tar.gz teste/
+  311  tar -zcvf compactado.tar.gz teste/
+  312  ls -ld teste/
+  313  ls -la teste/
+  314  rm -rf teste/
+  315  ls -la teste/
+  316  tar -zxvf compactado.tar.gz
+  317  ls -la teste/
+  318  history > /vagrant/history
+  319  exit
+  320  ls
+  321  cd ..
+  322  cd ..
+  323  cd vagrant/
+  324  ls
+  325  cd ..
+  326  ls
+  327  history > history.txt
